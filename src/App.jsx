@@ -1,7 +1,13 @@
-export default function App() {
+import AddToDo from "./components/AddToDo";
+import Todos from "./components/Todos";
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <>
+      <AddToDo />
+      <Todos />
+    </>
+  );
 }
+
+export default App;
